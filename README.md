@@ -2,6 +2,10 @@
 
 A multi-page e-commerce website for browsing and purchasing shoes, built using HTML, CSS, and JavaScript with a functional cart system using localStorage.
 
+[**🔗Live Website**](https://kethnulee-weerasinghe4.github.io/SHOE-website/)
+
+![Website Preview](./preview.png)
+
 ---
 
 ## Project Overview
@@ -46,4 +50,5 @@ This project focuses on building core front-end development skills, including la
 ### Option 1: Run Locally
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/shoe-website.git
+git clone https://github.com/Kethnulee-Weerasinghe4/SHOE-website.git
+cd SHOE-website
