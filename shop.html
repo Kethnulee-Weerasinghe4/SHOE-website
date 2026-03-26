@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOE-shop all</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav__container">
+            <a href="#" class="nav__logo">SHOE</a>
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="link">Shop All</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link" onclick="openCart()">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="shop">
+            <div class="shop__container">
+                <h2 class="title">Shop All</h2>
+                <div class="searchbar">
+                    <input type="text" id="search" placeholder="Search...">
+                    <select id="sort">
+                        <option value="">Sort By</option>
+                        <option value="low">Price: Low to High</option>
+                        <option value="high">Price: High to Low</option>
+                    </select>
+                </div>
+
+                <div class="products__container">
+                    <div class="product__card">
+                        <img src="assets/men-2.avif" alt="men-shoe">
+                        <h3>Speedcat OG</h3>
+                        <p class="price">LKR 16,000</p>
+                        <a href="menshoe-2.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/men-3.avif" alt="men-shoe">
+                        <h3>Deviate NITRO™ 4</h3>
+                        <p class="price">LKR 18,000</p>
+                        <a href="menshoe-3.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/men-4.avif" alt="men-shoe">
+                        <h3>MagMax NITRO™ 2</h3>
+                        <p class="price">LKR 21,000</p>
+                        <a href="menshoe-4.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/men-5.avif" alt="men-shoe">
+                        <h3>Retaliate 3</h3>
+                        <p class="price">LKR 28,000</p>
+                        <a href="menshoe-5.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/men-6.avif" alt="men-shoe">
+                        <h3>HALI 1 Smoke</h3>
+                        <p class="price">LKR 19,000</p>
+                        <a href="menshoe-6.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/women-2.avif" alt="women-shoe">
+                        <h3>Speedcat OG</h3>
+                        <p class="price">LKR 13,000</p>
+                        <a href="womenshoe-2.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/women-3.avif" alt="women-shoe">
+                        <h3>Speedcat Ballet Suede</h3>
+                        <p class="price">LKR 19,000</p>
+                        <a href="womenshoe-3.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/women-4.avif" alt="women-shoe">
+                        <h3>Mayze Classic</h3>
+                        <p class="price">LKR 29,000</p>
+                        <a href="womenshoe-4.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/women-5.avif" alt="women-shoe">
+                        <h3>Speedcat Wild</h3>
+                        <p class="price">LKR 29,000</p>
+                        <a href="womenshoe-5.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/women-6.avif" alt="women-shoe">
+                        <h3>PUMA x HYROX Deviate NITRO™ Elite 4</h3>
+                        <p class="price">LKR 32,000</p>
+                        <a href="womenshoe-6.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/kids-2.avif" alt="kids-shoe">
+                        <h3>PUMA x GABBY'S DOLLHOUSE Speedcat</h3>
+                        <p class="price">LKR 13,000</p>
+                        <a href="kidsshoe-2.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/kids-3.avif" alt="kids-shoe">
+                        <h3>Speedcat OG</h3>
+                        <p class="price">LKR 19,000</p>
+                        <a href="kidsshoe-3.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/kids-4.avif" alt="kids-shoe">
+                        <h3>H-Street OG</h3>
+                        <p class="price">LKR 19,000</p>
+                        <a href="kidsshoe-4.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/kids-5.avif" alt="kids-shoe">
+                        <h3>Basket Bow</h3>
+                        <p class="price">LKR 11,000</p>
+                        <a href="kidsshoe-5.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img src="assets/kids-6.avif" alt="kids-shoe">
+                        <h3>Speedcat Ballet Metallic</h3>
+                        <p class="price">LKR 10,000</p>
+                        <a href="kidsshoe-6.html">
+                            <button class="view">View</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__container">
+            <div class="footer__brand">
+                <a href="#" class="footer__logo">SHOE</a>
+                <p class="footer__slogan">
+                    Discover the perfect pair that matches your style, your energy,
+                    and every step of your journey.
+                </p>
+            </div>
+            <div class="footer__menu">
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">Hotline</a></li>
+                    <li><a href="#" class="footer__link">Email</a></li>
+                    <li><a href="#" class="footer__link">Fax</a></li>
+                    <li><a href="#" class="footer__link">Store Visit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footer__bottom">
+            <p>© 2026 SHOE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cart__sidebar" id="cartSidebar">
+        <div class="cart__header">
+            <h2>Cart</h2>
+            <button id="closeCart">✕</button>
+        </div>
+        <div class="cart__items" id="cartItems"></div>
+        <div class="cart__footer">
+            <h3>Total: <span id="cartTotal">LKR 0</span></h3>
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

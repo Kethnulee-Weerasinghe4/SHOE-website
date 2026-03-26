@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOE-website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav__container">
+            <a href="#" class="nav__logo">SHOE</a>
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="link">Shop All</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link" onclick="openCart()">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home">
+            <div class="home__container">
+                <video src="assets/video.mp4" autoplay muted loop playsinline></video>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2 class="title">Categories</h2>
+            <p class="slogan">Discover the perfect pair that matches your style,
+                your energy, and every step of your journey.
+            </p>
+            <div class="category__container">
+                <a href="menshoe.html" class="card__link">
+                    <div class="category__card">
+                        <img src="assets/men-1.avif" alt="men-shoe">
+                        <h3>Men</h3>
+                    </div>
+                </a>
+                <a href="womenshoe.html" class="card__link">
+                    <div class="category__card">
+                        <img src="assets/women-1.avif" alt="women-shoe">
+                        <h3>Women</h3>
+                    </div>
+                </a>
+                <a href="kidsshoe.html" class="card__link">
+                    <div class="category__card">
+                        <img src="assets/kids-1.avif" alt="kids-shoe">
+                        <h3>Kids</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__container">
+            <div class="footer__brand">
+                <a href="#" class="footer__logo">SHOE</a>
+                <p class="footer__slogan">
+                    Discover the perfect pair that matches your style, your energy,
+                    and every step of your journey.
+                </p>
+            </div>
+            <div class="footer__menu">
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">Hotline</a></li>
+                    <li><a href="#" class="footer__link">Email</a></li>
+                    <li><a href="#" class="footer__link">Fax</a></li>
+                    <li><a href="#" class="footer__link">Store Visit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footer__bottom">
+            <p>© 2026 SHOE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cart__sidebar" id="cartSidebar">
+        <div class="cart__header">
+            <h2>Cart</h2>
+            <button id="closeCart">✕</button>
+        </div>
+        <div class="cart__items" id="cartItems"></div>
+        <div class="cart__footer">
+            <h3>Total: <span id="cartTotal">LKR 0</span></h3>
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
