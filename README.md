@@ -47,7 +47,7 @@ This project focuses on building core front-end development skills, including la
 
 ## Installation
 
-### Option 1: Run Locally
+### Run Locally
 Clone the repository:
 ```bash
 git clone https://github.com/Kethnulee-Weerasinghe4/SHOE-website.git
