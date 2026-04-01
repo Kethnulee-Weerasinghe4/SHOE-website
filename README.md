@@ -17,7 +17,7 @@ This project focuses on building core front-end development skills, including la
 
 ---
 
-## 4. Features
+## Features
 - Home page with video background
 - Category-based navigation (Men / Women / Kids)
 - Product listing page (Shop All)
@@ -33,7 +33,7 @@ This project focuses on building core front-end development skills, including la
 
 ---
 
-## 5. Tech Stack
+## Tech Stack
 
 ### Frontend
 - HTML
